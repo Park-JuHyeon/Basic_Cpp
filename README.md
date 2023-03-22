@@ -77,3 +77,9 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
   
   - 매개변수의 디폴트 값
   - 인라인(inline) 함수
+  
+  
+## Day02
+   - True , False 구분하는 자료형 bool
+   - 참조자(Reference)
+   	- Call-by-value & Call-by-reference
