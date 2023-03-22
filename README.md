@@ -3,7 +3,7 @@
 ## Day01
   - 함수 오버로딩(OverLoading)
   - 함수 정의
-/*
+```python
 #include <iostream>
 
 
@@ -19,8 +19,6 @@ int main(void)
 
 	return 0;
 }
-
-
 
 void MyFunc(void)    // 출력 함수(입력) 의 형태		void는 비어 있다는 뜻 => 입, 출력 모두 비어있음
 {
@@ -74,8 +72,7 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
 	return res;		// 출력은 return문으로 작성한다.
 }
 
-
-/*
+```
   
   
   - 매개변수의 디폴트 값
