@@ -11,9 +11,6 @@ int main(void)
 
 	std::cout << "res: "<< res << std::endl;
 
-
-
-
 	return 0;
 }
 */
@@ -42,7 +39,6 @@ void MyFunc(int a, int b)	//  입력이 있고 출력은 없는 함수 , 출력이 없다 = void
 {
 	int res = a + b;
 	std::cout << "res : " << res << std::endl;
-
 }
 
 int main()
