@@ -83,3 +83,15 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
    - True , False 구분하는 자료형 bool
    - 참조자(Reference)
    	- Call-by-value & Call-by-reference
+	
+## Day03
+   - 참조자 Ref
+   - 상수화 const
+   - Class의 기본, 완성(정보은닉)
+
+
+
+
+
+
+
