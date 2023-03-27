@@ -89,7 +89,10 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
    - 상수화 const
    - Class의 기본, 완성(정보은닉)
 
-
+## Day05
+   - This 연산자의 사용
+   - ShallowCopy(얇은 복사) , DeepCopy(깊은 복사)
+   - 복사 생성자(Copy Constructor)
 
 
 
