@@ -94,7 +94,9 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
    - ShallowCopy(얇은 복사) , DeepCopy(깊은 복사)
    - 복사 생성자(Copy Constructor)
 
-
+## Day06
+   - Friend와 static and const
+   - 상속(Inheritance)
 
 
 
