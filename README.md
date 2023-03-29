@@ -98,5 +98,8 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
    - Friend와 static and const
    - 상속(Inheritance)
 
-
+## Day07
+   - 객체 포인터의 참조관계
+   - 오버라이딩(Overriding)
+   - 가상함수 (virtual)
 
