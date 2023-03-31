@@ -107,5 +107,25 @@ int MyFunc(int a, int b)   // 입력도있고 출력도 있는 함수 (함수 �
    - 참조자
    - 연산자 오버로딩
    
+## Day09
+   - 동적할당, 복사생성자(copy)
+```python
+   Person(const char* aname, int birth): birthday(birth)	// 생성자
+	{
+		name = new char[strlen(aname) + 1];			// 메모리 동적할당
+		strcpy(name, aname);
+	}
+	
+   Person(const Person& copy) : birthday(copy.birthday)	// 복사생성자 정의.
+	{
+		name = new char[strlen(copy.name) + 1];
+		strcpy(name, copy.name);
+	}
+	
+   
+```
+   - 템플릿(template T)
+   - 예외처리(try catch throw)
+   
    
 
