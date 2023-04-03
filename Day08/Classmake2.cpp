@@ -2,7 +2,7 @@
 #include<iostream>
 #include<cstring>
 using namespace std;
-#pragma warning(disable:4996)
+
 
 class Person
 {
@@ -26,25 +26,27 @@ public:
 		cout << "생일 " << birthday << endl;
 	}
 
-	Person& operator = (const Person ref)
+	Person& operator = (const Person ref)	// 연산자 오버로딩
 	{
-		this->name = new char[strlen(ref.name) + 1];
-		strcpy(this->name, ref.name);
-		this->birthday = ref.birthday;
+		name = new char[strlen(ref.name) + 1];
+		strcpy(name, ref.name);
+		birthday = ref.birthday;
 		return *this;
 	}
 	
-	~Person()
+	~Person()		// 소멸자 정의
 	{
 		delete[]name;
 		cout << "called destructor!" << endl;
 	}
 };
 
+/*
 void SimpleFuncObj(Person ob)
 {
 	ob.showPerson();
 }
+*/
 
 int main(void)
 {
